@@ -21,3 +21,17 @@ body {
 .data {
     margin-top: 100px;
 }
+
+.sticker {
+    border: 1px solid black;
+    
+}
+
+.sticker img {
+    width: 100%;
+    height: 100%;
+}
+
+.price {
+    margin-top: 20px;
+}
