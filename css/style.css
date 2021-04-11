@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(208, 206, 205);
 }
 
 .btn-search {
@@ -16,15 +16,29 @@ body {
 .rubberband {
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Caveat Brush', cursive;
 }
 
 .data {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sticker {
     border: 1px solid black;
-    
+    margin: 5px;
+    width: 200px;
 }
 
 .sticker img {
@@ -34,5 +48,42 @@ body {
 
 .price {
     margin-top: 20px;
-    display: table-cell;
+}
+
+.reduire {
+    margin-right: 5px;
+}
+
+.fa-plus, .fa-minus {
+    color: orangered;
+}
+
+.preview, .preview-img {
+    width: 100%;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-header, .card-body, .card-footer {
+    background-color: rgb(208, 206, 205);
+    border: none !important;
+}
+
+.row-items {
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.popover-body {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
 }
