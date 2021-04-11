@@ -87,3 +87,7 @@ body {
 .card-title {
     font-weight: bold;
 }
+
+.navbar {
+    justify-content: space-around;
+}
